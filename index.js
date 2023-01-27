@@ -31,3 +31,18 @@
 // let fruits = ['apple', 'mango', 'pears'];
 // fruits.push('avocado');
 // console.log(fruits) // ['apple', 'mango', 'pears', 'avocado']
+
+//Finding 
+let sentences = ['this is hello world', 'iims website' ,'name']
+const matchsentenceResult = sentences.find(function (element,index){
+    return element.includes('iims');
+});
+
+console.log("searchresult is:", matchsentenceResult);
+// Filter
+let number = [5, 10, 15, 20]
+const matchnumberResult = number.filter(function(element,index){
+    return element < 20;
+});
+console.log("number:", matchnumberResult)
+    

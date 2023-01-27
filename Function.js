@@ -44,3 +44,4 @@ function makeupper(name){
 
 let fullname = getfullname("Arbin", "Maharjan", makeupper);
 console.log(fullname);
+ console.log("hello")
